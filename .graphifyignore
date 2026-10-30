@@ -1,0 +1,21 @@
+# Graphify scope — keep the graph about THIS system, not about vendored/platform code.
+
+# Foundry VTT platform type stubs (309 .d.ts files). These describe the host
+# platform's ambient API, not this system's own structure. Including them
+# buries the Genesys architecture under ~300 files of vendor declarations.
+types/foundry/
+
+# Vendored third-party browser polyfill.
+public/scripts/container-query-polyfill/
+
+# Localization string tables (3 near-identical files) — data, not structure.
+yaml/lang/
+
+# Build output and IDE metadata.
+build/
+.idea/
+
+# Binary/asset trees (fonts, images, compendium db) — no extractable code.
+public/assets/
+public/packs/
+screenshots/

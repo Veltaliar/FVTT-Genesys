@@ -15,3 +15,7 @@ yarn-*.log
 
 # Misc Files
 .env
+
+# Graphify knowledge graph artifacts (generated; scope config in .graphifyignore is tracked)
+/.graphify/
+/graphify-out/
